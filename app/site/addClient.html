@@ -1,0 +1,23 @@
+<div id="add_client">
+    <div id="close">
+        <a class="bt_tool" onclick="new Client().closeAddClient()"><img alt="home page" src="app/site/img/Xion.png" height="55" ></a>
+    </div>
+    <div id="new_client">
+        <h2> Add New Costumer </h2>
+        <hr>
+       Costumer Email:
+       <input name="email_user" type="text" value="" id="email_user">  
+       <input id="btn_enviar_mail" type="submit" value="Search Mail" onclick="new Client().verifyEmail()">
+       <div id="data_response">
+           <form name="form1" action='?action=addCostumer' method="post">
+                <div id="data_costumer">   
+                </div>
+                <div id="sales_data">
+                </div>
+          </form>
+       </div>
+    </div>
+    
+</div>
+<div id="background">
+</div>
